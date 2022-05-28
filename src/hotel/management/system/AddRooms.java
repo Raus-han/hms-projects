@@ -115,7 +115,4 @@ public class AddRooms extends JFrame implements ActionListener{
         new AddRooms().setVisible(true);
     }
     
-
-
-    
 }

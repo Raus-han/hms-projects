@@ -94,8 +94,6 @@ public class Reception extends JFrame implements ActionListener{
             add(b12);
             
         ImageIcon i1= new ImageIcon(ClassLoader.getSystemResource("hotel/management/system/icons/fourth.jpg"));
-        //Image i2 = i1.getImage().getScaledInstance(480,440, Image.SCALE_DEFAULT);
-        //ImageIcon i3 = new ImageIcon(i2);
         JLabel l3 = new JLabel(i1);
         l3.setBounds(190,30,490,470);
         add(l3);
@@ -107,8 +105,7 @@ public class Reception extends JFrame implements ActionListener{
             setLayout(null);
             setBounds(415,170,720,550);
             setVisible(true);
-        
-        
+     
     }
         public void actionPerformed(ActionEvent ae){
             if(ae.getSource() == b1){

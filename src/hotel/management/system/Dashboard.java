@@ -45,8 +45,8 @@ public class Dashboard extends JFrame implements ActionListener {
         l1.setBounds(0,0,1570,770);
         add(l1);
         
-        JLabel l2 = new JLabel("THE TAJ GROUP WELCOMES YOU");
-        l2.setBounds(415,70,1000,50);
+        JLabel l2 = new JLabel("WelComE To ShaH HoTeL");
+        l2.setBounds(500,70,1000,50);
         l2.setForeground(Color.WHITE);
         l2.setFont(new Font("Tahoma", Font.PLAIN,48));
          
