@@ -9,8 +9,9 @@ public class HotelManagementSystem extends JFrame implements ActionListener {
     HotelManagementSystem()
     {
         setBounds(90,130,1366,565);
+       setLayout(null);
         //setSize(400,400);
-        setVisible(true);
+        //setVisible(true);
         //setLocation(300,300);
         
         ImageIcon i1=new ImageIcon(ClassLoader.getSystemResource("hotel/management/system/icons/first.jpg"));
